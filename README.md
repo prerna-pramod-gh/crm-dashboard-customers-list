@@ -21,7 +21,6 @@ The implementation is based on the provided design requirements and focuses on c
 
 ## Project Structure
 crm-dashboard-customers-list/
-│
 ├── index.html
 ├── style.css
 ├── script.js
@@ -32,5 +31,5 @@ crm-dashboard-customers-list/
 <img width="1918" height="1017" alt="Screenshot 2026-06-24 181635" src="https://github.com/user-attachments/assets/1b4d6874-a227-4af4-b992-57a897f75f85" />
 
 ## Author
-## Prerna Pramod
+Prerna Pramod
 LinkedIn: https://www.linkedin.com/in/prerna-pramod-671667301/
