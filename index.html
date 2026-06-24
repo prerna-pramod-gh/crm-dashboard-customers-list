@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRM Dashboard</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+/>
+</head>
+
+<body>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <h2>Dashboard</h2>
+        </div>
+
+        <ul class="menu">
+            <li><i class="fa-regular fa-square"></i> Dashboard</li>
+            <li><i class="fa-solid fa-box"></i> Product</li>
+            <li class="active"><i class="fa-regular fa-user"></i> Customers</li>
+            <li><i class="fa-solid fa-money-bill"></i> Income</li>
+            <li><i class="fa-solid fa-bullhorn"></i> Promote</li>
+            <li><i class="fa-regular fa-circle-question"></i> Help</li>
+        </ul>
+
+        <div class="upgrade-box">
+            <h4>Upgrade to PRO</h4>
+            <p>Get access to all features</p>
+            <button>Get Pro Now</button>
+        </div>
+
+    </aside>
+
+    <main class="main">
+
+        <header class="topbar">
+            <h2>Hello Evano 👋</h2>
+
+            <input
+            type="text"
+            id="searchInput"
+            placeholder="Search"
+            >
+        </header>
+
+        <section class="cards">
+
+            <div class="card">
+                <h4>Total Customers</h4>
+                <h2>5,423</h2>
+            </div>
+
+            <div class="card">
+                <h4>Members</h4>
+                <h2>1,893</h2>
+            </div>
+
+            <div class="card">
+                <h4>Active Now</h4>
+                <h2>189</h2>
+            </div>
+
+        </section>
+
+        <section class="customers">
+
+            <div class="table-header">
+
+                <div>
+                    <h2>All Customers</h2>
+                    <small>Active Members</small>
+                </div>
+
+                <select>
+                    <option>Newest</option>
+                    <option>Oldest</option>
+                </select>
+
+            </div>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Company</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Country</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tableBody">
+
+                    <tr>
+                        <td>Jane Cooper</td>
+                        <td>Microsoft</td>
+                        <td>(225) 555-0118</td>
+                        <td>jane@microsoft.com</td>
+                        <td>USA</td>
+                        <td><span class="active-status">Active</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Floyd Miles</td>
+                        <td>Yahoo</td>
+                        <td>(205) 555-0100</td>
+                        <td>floyd@yahoo.com</td>
+                        <td>Kiribati</td>
+                        <td><span class="inactive-status">Inactive</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Ronald Richards</td>
+                        <td>Adobe</td>
+                        <td>(302) 555-0107</td>
+                        <td>ronald@adobe.com</td>
+                        <td>Israel</td>
+                        <td><span class="inactive-status">Inactive</span></td>
+                    </tr>
+
+                    <tr>
+                        <td>Marvin McKinney</td>
+                        <td>Tesla</td>
+                        <td>(252) 555-0126</td>
+                        <td>marvin@tesla.com</td>
+                        <td>Iran</td>
+                        <td><span class="active-status">Active</span></td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
